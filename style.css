@@ -1,0 +1,146 @@
+body{
+    background-color: grey;
+}
+.full_container{
+    background-color: white;
+    width: 90%;
+    padding-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.menu{
+    flex-grow: 1;
+    padding: 0;
+    display: flex;
+    
+}
+
+.logo img{
+    padding-left: 15px;
+    width: 60px;
+}
+.search form{
+    padding-top: 20px;
+    display: flex;
+    padding-left: 150px;
+}
+
+.cart{
+    padding-top: 20px;
+    padding-left: 170px;
+    display: flex;
+}
+.cart i{
+    padding: 0;
+    color: grey;
+}
+.cart p{
+    color: grey;
+    font-size: 12px;
+}
+.list_item{
+    background-color: black;
+    width: 100%;
+    height: 35px;
+    margin-top: -15px;
+}
+.list_item ul li{
+    list-style: none;
+    padding-left: 20px;
+    display: inline;
+    align-items: center;
+}
+.list_item ul li a{
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: right;
+    color: white;
+}
+.container{
+    display: flex;
+    padding: 5px;
+}
+.right_container{
+    width: 13%;
+}
+.select{
+    padding-left: 10px;
+}
+.catergory{
+    background-color: rgb(240, 228, 228);
+}
+.catergory ul li{
+    list-style: none;
+    margin-left: -40px;
+    padding: 15px;
+
+}
+.left_container{
+    margin-top: -10px;
+    padding: 20px;
+    width: 83%;
+}
+.header{
+    height: 130px;
+    padding-top: 70px;
+    padding-left: 400px;
+    background-color: darkmagenta;
+}
+.header a{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.small_menu{
+    width: 100%;
+    margin-left: -40px;
+    
+}
+.small_menu ul li{
+    display: inline;
+    list-style: none;
+    color: greenyellow;
+}
+.small_menu h1{
+    margin-top: -10px;
+    padding-left: 40px;
+}
+.gallery{
+    width: 23%;
+    display: inline-block;
+    margin-top: -50px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.inside {
+    display: inline;
+}
+.inside h2{
+    padding-top: 40px;
+    background-color: aquamarine;
+    height: 80px;
+    text-align: center;
+}
+.inside p{
+    color: gray;
+    font-size: small;
+    margin-top: -10px;
+}
+.inside h3{
+    margin-top: -10px;
+}
+.chart{
+    height: 30px;
+    background-color: rgb(243, 225, 68);
+    padding-left: 65px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
